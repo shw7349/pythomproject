@@ -8,7 +8,7 @@ class PostList(ListView):
 
 class PostDetail(DetailView):
     model = Post
-    template_name =  'blog/pages.html'
+    template_name =  'blog/single_page.html'
 
 
 #def index(request):
